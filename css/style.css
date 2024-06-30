@@ -1,0 +1,53 @@
+/* 
+    Colors: 
+        GREEN rgba(40, 144, 38, 1)
+        BLACK
+        WHITE rgb(250, 250, 250);
+*/
+
+:root {
+    --verde: rgba(40, 144, 38, 1);
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+input {
+    border-radius: 30px;
+    border: none;
+    padding: 3px;
+}
+
+.button {
+    padding: 8px;
+    min-width: 100%;
+    cursor: pointer;
+}
+
+.verde {
+    color: rgba(40, 144, 38, 1);
+}
+
+.branco {
+    color: rgb(250, 250, 250);
+}
+
+.input-text {
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    color: black;
+}
+
+.dark {
+    background-color: #222831;
+}

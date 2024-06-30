@@ -1,0 +1,46 @@
+span {
+    color: var(--verde);
+}
+
+h1 {
+    color: white;
+}
+
+.font-size-h1 {
+    font-size: 60px;
+}
+
+.container {
+    background-color: #191A19;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    background-color: var(--verde);
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.input-text {
+    justify-content: start;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
